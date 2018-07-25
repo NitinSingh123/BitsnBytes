@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src = "@drawable/avatar"
+        android:layout_margin="20dp"
+        android:id="@+id/profile_image" />
+
+    <TextView
+        android:id="@+id/tv_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Name"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_alignTop="@+id/profile_image"
+        android:layout_alignLeft="@+id/image_attach"
+        android:layout_alignStart="@+id/image_attach" />
+
+    <EditText
+        android:id="@+id/et_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Ask Your Query"
+        android:linksClickable="true"
+        android:textColorLink="@color/colorPrimary"
+        android:layout_below="@+id/tv_display_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignLeft="@+id/profile_image"
+        android:layout_alignStart="@+id/profile_image" />
+    <ImageView
+        android:id="@+id/image_attach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_attach"
+        android:layout_below="@+id/et_query"
+        android:layout_alignLeft="@+id/et_query"
+        android:layout_alignStart="@+id/et_query"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="Attach Images"
+        android:layout_alignBottom="@+id/image_attach"
+        android:layout_toRightOf="@+id/image_attach"
+        android:layout_toEndOf="@+id/image_attach"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <Button
+        android:id="@+id/b_post_query"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="13dp"
+        android:text="Post"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@color/colorTitle"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_display_name"
+        android:layout_alignStart="@+id/tv_display_name"
+        android:layout_below="@+id/tv_display_name"
+        android:text="Asks Question..." />
+
+
+</RelativeLayout>

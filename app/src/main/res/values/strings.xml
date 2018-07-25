@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bits n Bytes</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Your Profile</string>
+    <string name="title_about">About</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

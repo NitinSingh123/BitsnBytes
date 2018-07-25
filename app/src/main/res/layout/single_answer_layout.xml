@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="@color/colorTitle"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/avatar"
+            android:layout_margin="10dp"
+            android:id="@+id/single_answer_image" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/single_answer_image"
+        android:layout_marginLeft="9dp"
+        android:layout_marginStart="9dp"
+        android:layout_toEndOf="@+id/single_answer_image"
+        android:layout_toRightOf="@+id/single_answer_image"
+        android:text="Answerd by"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/single_answer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView13"
+        android:layout_alignStart="@id/textView13"
+        android:layout_below="@+id/textView13"
+        android:text="Display Name"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:text="Answered on:"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/single_answer_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/textView16"
+        android:layout_toRightOf="@+id/textView16"
+        android:text="Date and Time"
+        android:textSize="10sp"
+        />
+
+    <TextView
+        android:id="@+id/single_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/single_answer_image"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="skfjnsj ksdjhcsjd kjsjdhs ksdfhn kjsdhfb sk sjjisb kjsdj fkjsbd fksbd skb snb skdb seji wef ie f skbf ewkunienf iue fjkseb sefbjs dc" />
+
+
+</RelativeLayout>
